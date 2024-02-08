@@ -7,3 +7,6 @@
 [submodule "store_producer_service"]
 	path = store_producer_service
 	url = git@github.com:bvbortz/store_producer_service.git
+[submodule "store_receiver_service"]
+	path = store_receiver_service
+	url = git@github.com:bvbortz/store_receiver_service.git
