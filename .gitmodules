@@ -1,0 +1,3 @@
+[submodule "server-side-bvbortz"]
+	path = store_backend_service
+	url = git@github.com:yesodot-course/server-side-bvbortz.git
