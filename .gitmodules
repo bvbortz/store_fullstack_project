@@ -1,3 +1,6 @@
 [submodule "server-side-bvbortz"]
 	path = store_backend_service
 	url = git@github.com:yesodot-course/server-side-bvbortz.git
+[submodule "midterm-client-side-bvbortz"]
+	path = store_frontend
+	url = git@github.com:yesodot-course/midterm-client-side-bvbortz.git
