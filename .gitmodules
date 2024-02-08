@@ -4,3 +4,6 @@
 [submodule "midterm-client-side-bvbortz"]
 	path = store_frontend
 	url = git@github.com:yesodot-course/midterm-client-side-bvbortz.git
+[submodule "store_producer_service"]
+	path = store_producer_service
+	url = git@github.com:bvbortz/store_producer_service.git
