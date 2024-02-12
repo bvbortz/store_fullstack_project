@@ -8,11 +8,7 @@ services:
     depends_on:
       - mongo
   backend: 
-    # image: bvbortz/backend:latest
-    image: backend
-    build:
-      context: store_backend_service
-      dockerfile: Dockerfile
+    image: bvbortz/backend:latest
     environment:
       MONGODB_URL: mongodb://mongo:27017/
       PORT: "5000"
