@@ -21,6 +21,8 @@ services:
     depends_on:
       - mongo
       - aggregations
+      - minio
+    restart: always
   mongo: 
     image: mongo
     ports:
@@ -41,6 +43,7 @@ services:
       - backend
       - producer
       - aggregations
+    restart: always
   rabbitmqServer:
     container_name: rabbitmqServer
     image: "rabbitmq:3.6-management-alpine"
